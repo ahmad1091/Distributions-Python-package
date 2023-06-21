@@ -1,10 +1,13 @@
 # Distributions-Python-package
 ### convert the modularized code into a Python package
 
-you can put your code into the 3a_python_package folder in the workspace. Inside the 3a_python_package folder, you'll need to create a few folders and files:
+
 * a `setup.py` file, which is required in order to use pip install
 * a folder called `'distributions'`, which is the name of the Python package
 * inside the `'distributions'` folder, you'll need the `Gaussiandistribution.py` file, `Generaldistribution.py` and an `__init__.py` file.
+* test.py unit tests to help you debug your code
+- numbers.txt and numbers_binomial.txt are data files used as part of the unit tests
+- Binomialdistribution_challenge.py
 
 Once everything is set up, open a new terminal window in the workspace. Then type:
 
@@ -21,3 +24,5 @@ gaussian_one = Gaussian(25, 2)
 gaussian_one.mean
 gaussian_one + gaussian_one
 ```
+
+To run the **unit tests** by typing `python -m unittest test`
