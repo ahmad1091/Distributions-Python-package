@@ -17,9 +17,9 @@ If everything is set up correctly, pip will install the distributions package in
 python
 
 Then within the Python interpreter, you can use the distributions package:
-from distributions import Gaussian
 
 ```
+from distributions import Gaussian
 gaussian_one = Gaussian(25, 2)
 gaussian_one.mean
 gaussian_one + gaussian_one
