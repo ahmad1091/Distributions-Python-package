@@ -6,8 +6,8 @@
 * a folder called `'distributions'`, which is the name of the Python package
 * inside the `'distributions'` folder, you'll need the `Gaussiandistribution.py` file, `Generaldistribution.py` and an `__init__.py` file.
 * test.py unit tests to help you debug your code
-- numbers.txt and numbers_binomial.txt are data files used as part of the unit tests
-- Binomialdistribution_challenge.py
+- `numbers.txt` and `numbers_binomial.txt` are data files used as part of the unit tests
+- `Binomialdistribution_challenge.py`
 
 Once everything is set up, open a new terminal window in the workspace. Then type:
 
