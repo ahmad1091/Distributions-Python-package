@@ -24,5 +24,5 @@ gaussian_one = Gaussian(25, 2)
 gaussian_one.mean
 gaussian_one + gaussian_one
 ```
-
+from Gu_Bi_GB import Gaussian
 To run the **unit tests** by typing `python -m unittest test`
